@@ -1,0 +1,53 @@
+/* quiz_app/static/quiz_app/css/styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #0b296a;
+}
+
+a {
+  color: #0000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.quiz-question {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.quiz-options {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quiz-options li {
+  margin-bottom: 10px;
+}
+
+.quiz-result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Add more styles as needed */

@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <p>Welcome to the Quiz App!</p>
+  <p>Your score: {{ request.session.score|default:0 }} </p>
+  <a href="{% url 'quiz' %}">Start Quiz</a>
+{% endblock %}
